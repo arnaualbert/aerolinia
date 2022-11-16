@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Proven</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/index.js"></script>
+</head>
+
+<body onload="mueveReloj()">
+    <div id="Black">
+        <h2 id="white">Air Proven</h2>
+    </div>
+    <ul id="nav">
+        <li>
+            <a href="#header"><button id="bt1">LOGIN</button></a>
+        </li>
+        <li>
+            <a href="#header"><button id="bt2">Registro</button></a>
+        </li>
+        <li>
+            <a href="#header"><button id="bt3">Logout</button></a>
+        </li>
+        <li>
+            <p id="fecha"></p>
+        </li>
+        <li>
+            <a href="#section-2">
+                <form name="form_reloj">
+                    <input readonly="readonly" type="text" name="reloj" size="10" style="background-color : burlywood; color : black; font-family : Verdana, Arial, Helvetica; font-size : 8pt; text-align : center;">
+                </form>
+            </a>
+        </li>
+        <li>
+            <p id="response"></p>
+        </li>
+        <li>
+            <a href="#section-4"><i class="fas fa-building"></i></a>
+        </li>
+
+    </ul>
+    <div id="divlogin">
+        <form action="">
+            <div>
+                <label for="">Username :</label>
+                <div>
+                    <input type="text" id="username" name="pwd">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label for="">Password :</label>
+                    <div>
+                        <input type="password" id="pwd" name="pwd">
+                    </div>
+                </div>
+            </div>
+            <button type="button" id="btLogin">Login</button>
+        </form>
+    </div>
+    <div id="divregistro">
+        <form action="">
+            <div>
+                <label for="">Nombre :</label>
+                <div>
+                    <input type="text" id="nom" name="nom">
+                </div>
+            </div>
+            <div>
+                <label for="">Username :</label>
+                <div>
+                    <input type="text" id="username_reg" name="pwd">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label for="">Password :</label>
+                    <div>
+                        <input type="password" id="pwd_reg" name="pwd">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label for=""> Repetir Password :</label>
+                    <div>
+                        <input type="password" id="pwdrepeat" name="pwdrepeat">
+                    </div>
+                </div>
+            </div>
+            <button type="button" id="btregistro">Registro</button>
+        </form>
+    </div>
+    <div id="divvuelos">
+        <!-- <div> -->
+        <label for="">Origen</label>
+        <select name="" id="origen" required></select><br>
+        <!-- </div> -->
+        <!-- <div> -->
+        <label for="">Destino</label>
+        <select name="" id="destino" required></select><br>
+        <!-- </div>
+        <div> -->
+        <label for="">Salida</label><br>
+        <input id="salida" type='date' min="fecha" max='2023-05-01'></input><br>
+        <!-- </div>
+        <div> -->
+        <label for="">Vuelta</label><br>
+        <input id="vuelta" type='date' min="fecha" max='2023-05-01'></input><br>
+        <!-- </div>
+        <div> -->
+        <label for="">Billetes</label>
+        <select name="" id="pasajeros">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            </select><br>
+        <!-- </div> -->
+        <button type="button" id="btvuelos">Buscar Vuelos</button>
+    </div>
+    <div id="buscar">
+        <div id="info"></div><br>
+        <!-- esto tiene la info del vuelo  -->
+        <label for="">Salida</label><br>
+        <select name="" id="salidas" required></select><br>
+        <label for="">Vuelta</label><br>
+        <select name="" id="vueltas" required></select><br>
+        <p id="tt"></p>
+        <button type="button" id="btcomprar">Comprar</button>
+    </div>
+    <div id="usuario">
+        <form action="">
+            <label for="">Nom</label><br>
+            <input readonly="readonly" type="text" id="nombrerelleno"><br>
+            <label for="">DNI</label><br>
+            <input type="text" id="dni"><br>
+            <label for="">Telefon</label><br>
+            <input type="text" id="telefono"><br>
+            <label for="">Correo</label><br>
+            <input type="text" id="correo"><br>
+            <button type="button" id="btcontinuar">Continuar</button>
+        </form>
+    </div>
+    <div id="datos">
+        <!-- <p>Nombre</p> -->
+        <p id="nomini"></p>
+        <!-- <p>Telefono</p> -->
+        <p id="mobil"></p>
+        <!-- <p>DNI</p> -->
+        <p id="dnie"></p>
+        <!-- <p>Correo</p> -->
+        <p id="email"></p>
+        <!-- <p>Origen</p> -->
+        <p id="desde"></p>
+        <!-- <p>Destino</p> -->
+        <p id="hacia"></p>
+        <!-- <p>Fecha Salida</p> -->
+        <p id="fechaida"></p>
+        <!-- <p>Dia y hora</p> -->
+        <p id="anada"></p>
+        <!-- <p>Fecha Vuelta</p> -->
+        <p id="fechavuelta"></p>
+        <!-- <p>Dia y hora</p> -->
+        <p id="tornada"></p>
+        <!-- <p>Billetes</p> -->
+        <p id="billetes"></p>
+        <!-- <p>Duracion y precio </p> -->
+        <p id="preu"></p>
+        <button id="print">Print Page</button>
+    </div>
+</body>
+
+</html>

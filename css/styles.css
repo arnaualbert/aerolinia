@@ -1,0 +1,143 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: burlywood;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+#nav li {
+    float: right;
+}
+
+#nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#nav li a:hover {
+    color: black;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    /* font */
+    font-family: "Averta CY", sans-serif;
+    /* background-color: aquamarine; */
+    /* background-image: url("https://astelus.com/wp-content/viajes/las-principales-aerolineas-del-mundo.jpg") */
+    background-image: url("https://s1.1zoom.me/b5050/866/432181-Kycb_1920x1080.jpg");
+}
+
+#Black {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: burlywood;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.19);
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#divlogin {
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#divregistro {
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#divvuelos {
+    margin-top: 50vw;
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #ccc;
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+#buscar {
+    margin-top: 50vw;
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #ccc;
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+#usuario {
+    margin-top: 50vw;
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #ccc;
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+#datos {
+    margin-top: 50vw;
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #ccc;
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #0486aa;
+    border: none;
+    color: white;
+}
+
+select {
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 250px;
+    background-color: #f1f1f1;
+}
